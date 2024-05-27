@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#8BC34A"
+    android:orientation="vertical">
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:src="@drawable/ic_baseline_check_box_24"
+    android:background="#1CEFDB"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:background="#FFF"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt"
+            android:text="Success"
+            android:textStyle="italic"
+            android:textSize="30dp"
+            android:textColor="#03A9F4"
+            android:layout_margin="11dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t"
+            android:text="Your order successfully placed"
+            android:textStyle="italic"
+            android:textSize="25dp"
+            android:textColor="#000"
+            android:layout_margin="11dp"/>
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Okay"
+        android:id="@+id/b"
+        android:textColor="#fff"
+        android:background="#03A9F4"
+        android:textSize="25dp"
+        android:textStyle="italic"/>
+
+
+
+</LinearLayout>
